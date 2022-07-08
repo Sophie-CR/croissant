@@ -29,7 +29,7 @@ a:hover {
 
 img {
   border-radius: 5px;
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .footer-links {
@@ -38,8 +38,8 @@ img {
 
 .nav-link {
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
 }
 
 .open-source {
