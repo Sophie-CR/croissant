@@ -3,6 +3,7 @@
   --secondary-color: #eba300;
   --primary-accent-color: #e7475e;
   --secondary-accent-color: #248888;
+  --margin: 30px;
   --transition: 200ms;
 }
 
@@ -12,19 +13,9 @@ body {
   text-align: center;
 }
 
-.footer-links {
-  margin-top: 30px;
-}
-
-.nav-link {
-  display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 h1 {
   color: var(--secondary-color);
-  margin-bottom: 30px;
+  margin-bottom: var(--margin);
 }
 
 a {
@@ -39,4 +30,18 @@ a:hover {
 img {
   border-radius: 5px;
   max-width: 70%;
+}
+
+.footer-links {
+  margin-top: var(--margin);
+}
+
+.nav-link {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.open-source {
+  margin-top: var(--margin);
 }
